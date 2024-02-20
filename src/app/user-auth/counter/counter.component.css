@@ -1,7 +1,6 @@
 div{
     display: flex;
     justify-content: space-evenly;
-
 }
 button{
     padding: 4px;
@@ -12,5 +11,5 @@ button{
 h1{
     font-size: 40px;
     margin: 10px;
-    color: red;
+    /* color: red; */
 }
