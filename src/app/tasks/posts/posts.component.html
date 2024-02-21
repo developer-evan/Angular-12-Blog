@@ -1,0 +1,21 @@
+
+<form #usersForm="ngForm" (ngSubmit)="getUserFormData(usersForm.value)">
+  <input type="text" ngModel name="name" placeholder="Name" />
+  <br />
+  <input type="text" ngModel name="email" placeholder="Email" />
+  <!-- <br />
+  <input type="text" ngModel name="phone" placeholder="Phone" />
+  <br /> -->
+  <br />
+  <!-- <button (click)="addUser()">Add User</button> -->
+  <button>Add User</button>
+</form>
+
+<ul>
+  <li *ngFor="let user of users">
+    {{ user.name }}
+    <!-- <br> -->
+    <!-- {{user.email}} -->
+    <!-- {{user.phone}} -->
+  </li>
+</ul>

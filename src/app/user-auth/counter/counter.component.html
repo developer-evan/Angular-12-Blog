@@ -6,6 +6,7 @@
   <button (click)="counter('minus')">--</button>
   <p>Count:{{ count }}</p>
   <button (click)="counter('add')">++</button>
+  
 </div>
 <!-- <div [ngSwitch]="color">
   <h1 *ngSwitchCase="green" style="color: green">Counter</h1>
@@ -13,11 +14,11 @@
   <h1 *ngSwitchCase="green" style="color: red">Counter</h1>
   <h1 *ngSwitchDefault>aUN Counter</h1>
 </div> -->
+
 <div>
     <h1
     *ngFor="let item of users"
     >
-
         {{item}}
     </h1>
 
